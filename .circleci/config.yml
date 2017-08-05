@@ -12,7 +12,7 @@ jobs:
           command: |
             pip install docker-compose==1.9.0      
       - run:
-          name run test    
+          name: run test    
           command: | 
             docker-compose up -d \
             docker-compose run dockerapp python test.py
